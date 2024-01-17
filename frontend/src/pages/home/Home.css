@@ -1,0 +1,161 @@
+#homePage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to top, #58473083, #3f5b84b3),
+    url("../../assets/datahome.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 80vh;
+}
+#homebox {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#homebox h1 {
+  background: -webkit-linear-gradient(
+    0deg,
+    rgb(174, 137, 88),
+    #6694ef,
+    #ef9546
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+#homebox button {
+    margin-top: 20px;
+  padding: 12px 30px;
+  border: 1px solid antiquewhite;
+  border-radius: 4px;
+  background-color: transparent;
+  color: antiquewhite;
+}
+#offerBox h4{
+text-align: center;
+font-weight: 700;
+color: #6694ef;
+margin-top: 20px;
+}
+#offerCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #80808086;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 4px;
+}
+#offerCard:hover{
+    background-color: #ffffffa0;
+}
+#offerCard i{
+    color: #6694ef;
+    text-align: center;
+    font-size: 50px;
+}
+#offerCard h6{
+    font-weight: 700;
+    color: grey;
+}
+#offerCard button{
+    border: 1px solid #8080807f;
+    color: #6694ef;
+    padding: 4px 10px;
+    background-color: transparent;
+}
+#offerCard button:hover{
+    background-color: #6694ef;
+    color: white;
+}
+#missionBox{
+    margin-top: 25px;
+}
+#missionCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#missionCard img{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+#missionCard h2{
+    color: #6694ef;
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    line-height: 3.6rem;
+}
+#missionCard button{
+    padding: 8px 20px;
+    border: 1px solid #8080807e;
+    border-radius: 4px;
+    background-color: #6694ef;
+    color: wheat;
+    margin-top: 20px;
+}
+#contactBox{
+    margin-top: 25px;
+}
+#contactBox h4{
+    color: #6694ef;
+    font-weight: 700;
+    text-align: center;
+}
+#contactCardWrap{
+    background-color: #bfbcbc99;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 15px;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+#contactBtn{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+#contactBtn button{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 2px;
+    border: none;
+    background-color: #6694ef;
+    color: white;
+}
+.form-control{
+    border: 1px solid #80808085;
+    border-radius: 2px;
+}
+#contactCardWrapBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+#contactCardWrapBox i{
+    margin-right: 10px;
+    font-size: 20px;
+    color: #6694ef;
+    padding: 10px;
+    border: 1px solid #6694ef;
+    border-radius: 50%;
+}
+#contactCardWrapBox p{
+    color: #6694ef;
+}

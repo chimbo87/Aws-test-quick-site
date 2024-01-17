@@ -1,0 +1,33 @@
+#theHeader{
+    background-color: #073b85;
+    padding: 10px 0px;
+}
+.navBar{
+    padding: 20px 0px;
+    border: 1px solid white;
+}
+.navbar-brand{
+    background: -webkit-linear-gradient(0deg, antiquewhite, #6694ef, #d29968);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+.nav-item{
+    margin: 0px 10px;
+}
+#navLinks{
+    color: antiquewhite;
+    font-weight: 500;
+}
+#navBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navBtn button{
+    padding: 8px 35px;
+    border: 1px solid antiquewhite;
+    border-radius: 4px;
+    color: antiquewhite;
+    background-color: transparent;
+}
