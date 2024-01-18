@@ -1,7 +1,10 @@
 import React from "react";
 import "./Home.css";
 import aboutImg from "../../assets/about.jpeg";
+import Footer from "../../components/footer/Footer";
+import { useNavigate } from "react-router-dom";
 function Home() {
+  const navigate = useNavigate();
   return (
     <>
       <div className="container-fluid" id="homePage">
@@ -10,7 +13,9 @@ function Home() {
             Transform raw data into captivating narratives, Your journey to
             meaningful visualization starts here!
           </h1>
-          <button>Get Started</button>
+          <button onClick={() => {
+                  navigate("/signup");
+                }}>Get Started</button>
         </div>
       </div>
       <div className="container">
@@ -187,6 +192,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }

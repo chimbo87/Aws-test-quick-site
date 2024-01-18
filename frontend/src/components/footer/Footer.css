@@ -1,0 +1,26 @@
+#footerPage{
+    margin-top: 25px;
+    background-color: #073b85;
+    padding-top: 40px;
+}
+#footerCard h4{
+text-align: center;
+color: antiquewhite;
+font-weight: 700;
+}
+#footerCard p{
+   text-align: start;
+    color: antiquewhite;
+    }
+
+    #footerRightsBox{
+        border-top: 1px solid #daa52042;
+        padding-top: 20px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #footerRightsBox p{
+        color: goldenrod;
+    }
